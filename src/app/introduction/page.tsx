@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Introduction() {
   return (
@@ -12,11 +13,17 @@ export default function Introduction() {
           priority
         />
       </div>
-      <p className="text-lg leading-relaxed text-center max-w-2xl font-[family-name:var(--font-source-serif)]">
+      <p className="text-lg leading-relaxed text-center max-w-2xl font-[family-name:var(--font-source-serif)] mb-8">
         The Kybalion is a metaphysical text published in 1908 by the anonymous &ldquo;Three Initiates.&rdquo; 
         It presents the Seven Hermetic Principles, timeless spiritual laws attributed to Hermes Trismegistus, 
         a mythical figure said to be the origin of all wisdom traditions—combining Egyptian, Greek, and esoteric philosophy.
       </p>
+      <Link 
+        href="/principles" 
+        className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
+      >
+        Explore the Principles
+      </Link>
     </div>
   );
 } 
