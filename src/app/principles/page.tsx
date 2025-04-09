@@ -56,15 +56,15 @@ export default function Principles() {
   return (
     <div className="min-h-screen p-8">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-light font-[family-name:var(--font-merriweather)] text-center mb-12">
+        <h1 className="text-4xl font-light font-[family-name:var(--font-merriweather)] text-center mb-16">
           The Seven Hermetic Principles
         </h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {principles.map((principle) => (
             <div 
               key={principle.id}
-              className={`relative h-64 cursor-pointer perspective-1000`}
+              className={`relative h-72 cursor-pointer perspective-1000`}
               onClick={() => toggleCard(principle.id)}
             >
               <div 
@@ -73,24 +73,29 @@ export default function Principles() {
                 }`}
               >
                 {/* Front of card */}
-                <div className="absolute w-full h-full backface-hidden bg-white border border-gray-200 rounded-lg shadow-lg p-6 flex items-center justify-center">
-                  <h2 className="text-xl font-[family-name:var(--font-merriweather)] text-center">
+                <div className="absolute w-full h-full backface-hidden bg-white border border-gray-200 rounded-lg shadow-lg p-8 flex items-center justify-center">
+                  <h2 className="text-xl font-[family-name:var(--font-merriweather)] text-center text-blue-900">
                     {principle.name}
                   </h2>
                 </div>
                 
                 {/* Back of card */}
-                <div className="absolute w-full h-full backface-hidden bg-white border border-gray-200 rounded-lg shadow-lg p-6 rotate-y-180 overflow-y-auto">
-                  <p className="text-sm font-[family-name:var(--font-source-serif)]">
-                    {principle.description}
-                  </p>
+                <div className="absolute w-full h-full backface-hidden bg-white border border-gray-200 rounded-lg shadow-lg p-8 rotate-y-180 overflow-y-auto">
+                  <div className="flex flex-col h-full">
+                    <p className="text-base font-[family-name:var(--font-source-serif)] text-blue-900 text-center font-medium mb-6">
+                      &ldquo;{principle.description.split('.')[0]}.&rdquo;
+                    </p>
+                    <p className="text-sm font-[family-name:var(--font-source-serif)] text-blue-900">
+                      {principle.description.split('.').slice(1).join('.').trim()}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           ))}
         </div>
         
-        <div className="mt-12 text-center">
+        <div className="mt-16 text-center">
           <Link 
             href="/introduction" 
             className="inline-block px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
