@@ -18,6 +18,18 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   title: "Hermetic Principles",
   description: "A journey through the Seven Hermetic Principles",
+  themeColor: "#ffffff",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Hermetic Principles",
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({
