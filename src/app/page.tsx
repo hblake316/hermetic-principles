@@ -8,7 +8,7 @@ export default function Home() {
         href="/introduction" 
         className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
       >
-        Begin Reading
+        Begin Reading →
       </Link>
     </div>
   );

@@ -18,12 +18,20 @@ export default function Introduction() {
         It presents the Seven Hermetic Principles, timeless spiritual laws attributed to Hermes Trismegistus, 
         a mythical figure said to be the origin of all wisdom traditions—combining Egyptian, Greek, and esoteric philosophy.
       </p>
-      <Link 
-        href="/principles" 
-        className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
-      >
-        Explore the Principles
-      </Link>
+      <div className="flex gap-4">
+        <Link 
+          href="/" 
+          className="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors font-[family-name:var(--font-source-serif)]"
+        >
+          ← Back to Cover
+        </Link>
+        <Link 
+          href="/principles" 
+          className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
+        >
+          Explore the Principles →
+        </Link>
+      </div>
     </div>
   );
 } 

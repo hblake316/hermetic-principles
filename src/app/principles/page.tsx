@@ -96,12 +96,20 @@ export default function Principles() {
         </div>
         
         <div className="mt-16 text-center">
-          <Link 
-            href="/introduction" 
-            className="inline-block px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
-          >
-            Back to Introduction
-          </Link>
+          <div className="flex justify-between">
+            <Link 
+              href="/introduction" 
+              className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
+            >
+              ← Back to Introduction
+            </Link>
+            <Link 
+              href="/card-game" 
+              className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
+            >
+              Try the Card Game →
+            </Link>
+          </div>
         </div>
       </div>
     </div>
