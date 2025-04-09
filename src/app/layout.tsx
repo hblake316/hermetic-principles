@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Merriweather, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
+import Navigation from "./components/Navigation";
 
 const merriweather = Merriweather({ 
   weight: ['300', '400', '700'],
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${merriweather.variable} ${sourceSerif.variable} antialiased`}>
+        <Navigation />
         {children}
       </body>
     </html>

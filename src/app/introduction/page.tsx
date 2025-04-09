@@ -23,7 +23,7 @@ export default function Introduction() {
           href="/" 
           className="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors font-[family-name:var(--font-source-serif)]"
         >
-          ← Back to Cover
+          ← Back to Home
         </Link>
         <Link 
           href="/principles" 

@@ -59,9 +59,12 @@ export default function CardGame() {
   return (
     <div className="min-h-screen p-8 flex flex-col items-center justify-center">
       <div className="max-w-4xl mx-auto w-full">
-        <h1 className="text-4xl font-light font-[family-name:var(--font-merriweather)] text-center mb-16">
-          Hermetic Card Game
+        <h1 className="text-4xl font-light font-[family-name:var(--font-merriweather)] text-center mb-4">
+          Hermetic Oracle
         </h1>
+        <p className="text-lg font-[family-name:var(--font-source-serif)] text-center text-gray-600 mb-16 max-w-2xl mx-auto">
+          Draw a card to reveal a Hermetic Principle. Reflect on how this principle manifests in your life and experiences.
+        </p>
         
         <div className="flex flex-col items-center">
           <div 
@@ -118,12 +121,14 @@ export default function CardGame() {
           >
             ← Back to Principles
           </Link>
-          <Link 
-            href="/introduction" 
-            className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
-          >
-            Back to Introduction →
-          </Link>
+          <div className="flex gap-4">
+            <Link
+              href="/practicum"
+              className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
+            >
+              Hermetic Practicum →
+            </Link>
+          </div>
         </div>
       </div>
     </div>
