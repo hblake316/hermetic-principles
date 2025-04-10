@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Introduction() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-8 max-w-4xl mx-auto">
+    <div className="min-h-screen flex flex-col items-center justify-center p-8 pb-16 max-w-4xl mx-auto">
       <div className="w-full aspect-[3/2] relative mb-8">
         <Image
           src="/images/hermes-trismegistus.png"

@@ -11,12 +11,6 @@ export default function Home() {
         >
           Begin Reading →
         </Link>
-        <Link 
-          href="/site-map" 
-          className="px-6 py-3 bg-white text-black border border-black rounded-lg hover:bg-gray-100 transition-colors font-[family-name:var(--font-source-serif)]"
-        >
-          Site Map
-        </Link>
       </div>
     </div>
   );
