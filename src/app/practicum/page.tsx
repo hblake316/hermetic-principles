@@ -44,8 +44,10 @@ export default function Practicum() {
         {/* Real-World Applications Section */}
         <section className="mb-16">
           <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
-            Real-World Applications for Group Activities
+            Real-World Applications
           </h2>
+          
+          {/* Technology & Innovation */}
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-6">
             <div className="flex items-center mb-4">
               <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
@@ -75,7 +77,8 @@ export default function Practicum() {
             </div>
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
+          {/* Environmental Systems */}
+          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-6">
             <div className="flex items-center mb-4">
               <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
                 Environmental Systems
@@ -110,13 +113,8 @@ export default function Practicum() {
               </p>
             </div>
           </div>
-        </section>
 
-        {/* Application Projects Section */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
-            Application Projects for Assessment
-          </h2>
+          {/* Media Analysis */}
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-6">
             <div className="flex items-center mb-4">
               <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
@@ -143,7 +141,8 @@ export default function Practicum() {
             </div>
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
+          {/* Personal Transformation Journal */}
+          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-6">
             <div className="flex items-center mb-4">
               <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
                 Personal Transformation Journal
@@ -168,13 +167,8 @@ export default function Practicum() {
               </ul>
             </div>
           </div>
-        </section>
 
-        {/* Problem-Solving Framework Section */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
-            Problem-Solving Framework
-          </h2>
+          {/* Hermetic Problem-Solving */}
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
             <div className="flex items-center mb-4">
               <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
