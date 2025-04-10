@@ -31,4 +31,4 @@ async function generateIcons() {
   }
 }
 
-generateIcons(); 
+generateIcons();

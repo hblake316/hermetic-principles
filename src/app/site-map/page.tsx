@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function SiteMap() {
   return (
@@ -27,7 +27,9 @@ export default function SiteMap() {
             </Link>
             <Link href="/introduction" className="block">
               <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">Introduction</h3>
+                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                  Introduction
+                </h3>
                 <p className="font-[family-name:var(--font-source-serif)] text-gray-600">
                   Learn about the origins and significance of the Kybalion
                 </p>
@@ -35,7 +37,9 @@ export default function SiteMap() {
             </Link>
             <Link href="/principles" className="block">
               <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">The Seven Principles</h3>
+                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                  The Seven Principles
+                </h3>
                 <p className="font-[family-name:var(--font-source-serif)] text-gray-600">
                   Explore the fundamental principles of Hermetic philosophy
                 </p>
@@ -52,7 +56,9 @@ export default function SiteMap() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Link href="/card-game" className="block">
               <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">Hermetic Oracle</h3>
+                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                  Hermetic Oracle
+                </h3>
                 <p className="font-[family-name:var(--font-source-serif)] text-gray-600">
                   Draw cards and receive guidance based on the Hermetic Principles
                 </p>
@@ -60,7 +66,9 @@ export default function SiteMap() {
             </Link>
             <Link href="/practicum" className="block">
               <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">Hermetic Practicum</h3>
+                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                  Hermetic Practicum
+                </h3>
                 <p className="font-[family-name:var(--font-source-serif)] text-gray-600">
                   Engage with practical applications and exercises
                 </p>
@@ -77,7 +85,9 @@ export default function SiteMap() {
           <div className="grid grid-cols-1 gap-6">
             <Link href="/teacher-key" className="block">
               <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">Teacher&apos;s Key</h3>
+                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                  Teacher&apos;s Key
+                </h3>
                 <p className="font-[family-name:var(--font-source-serif)] text-gray-600">
                   Access teaching guides and suggested answers for classroom activities
                 </p>
@@ -87,8 +97,8 @@ export default function SiteMap() {
         </section>
 
         <div className="flex justify-center mt-16">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors font-[family-name:var(--font-source-serif)]"
           >
             ← Back to Home
@@ -97,4 +107,4 @@ export default function SiteMap() {
       </div>
     </div>
   );
-} 
+}

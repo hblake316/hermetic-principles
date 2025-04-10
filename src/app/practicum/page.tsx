@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Practicum() {
   return (
@@ -8,9 +8,10 @@ export default function Practicum() {
           Hermetic Practicum
         </h1>
         <p className="text-lg font-[family-name:var(--font-source-serif)] text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-          Explore this practicum to deepen your understanding and application of the Hermetic Principles
+          Explore this practicum to deepen your understanding and application of the Hermetic
+          Principles
         </p>
-        
+
         {/* Class Supplies Section */}
         <section className="mb-16 bg-blue-50 p-6 rounded-lg border border-blue-200">
           <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-4">
@@ -18,14 +19,18 @@ export default function Practicum() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">For Individual Activities</h3>
+              <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                For Individual Activities
+              </h3>
               <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-1">
                 <li>Notebook or journal</li>
                 <li>Pens and pencils</li>
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">For Group Activities</h3>
+              <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                For Group Activities
+              </h3>
               <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-1">
                 <li>Paper or poster board</li>
                 <li>Markers, crayons, or colored pencils</li>
@@ -35,7 +40,7 @@ export default function Practicum() {
             </div>
           </div>
         </section>
-        
+
         {/* Real-World Applications Section */}
         <section className="mb-16">
           <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
@@ -43,16 +48,24 @@ export default function Practicum() {
           </h2>
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-6">
             <div className="flex items-center mb-4">
-              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">Technology & Innovation</h3>
-              <span className="ml-3 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Group Activity</span>
+              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
+                Technology & Innovation
+              </h3>
+              <span className="ml-3 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+                Group Activity
+              </span>
             </div>
             <p className="font-[family-name:var(--font-source-serif)] mb-4">
-              Explore how the Hermetic Principles manifest in technological advancement and innovation.
+              Explore how the Hermetic Principles manifest in technological advancement and
+              innovation.
             </p>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">Group Activity:</h4>
+              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">
+                Group Activity:
+              </h4>
               <p className="font-[family-name:var(--font-source-serif)] mb-4">
-                Research and present examples of how each principle appears in technological development. For example:
+                Research and present examples of how each principle appears in technological
+                development. For example:
               </p>
               <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
                 <li>How does the Principle of Vibration relate to wireless communication?</li>
@@ -61,19 +74,26 @@ export default function Practicum() {
               </ul>
             </div>
           </div>
-          
+
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
             <div className="flex items-center mb-4">
-              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">Environmental Systems</h3>
-              <span className="ml-3 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Group Activity</span>
+              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
+                Environmental Systems
+              </h3>
+              <span className="ml-3 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+                Group Activity
+              </span>
             </div>
             <p className="font-[family-name:var(--font-source-serif)] mb-4">
               Examine how the Hermetic Principles operate within natural and environmental systems.
             </p>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">Group Activity:</h4>
+              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">
+                Group Activity:
+              </h4>
               <p className="font-[family-name:var(--font-source-serif)] mb-4">
-                Create a visual representation showing how Hermetic Principles manifest in natural systems:
+                Create a visual representation showing how Hermetic Principles manifest in natural
+                systems:
               </p>
               <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
                 <li>Predator-prey relationships</li>
@@ -85,12 +105,13 @@ export default function Practicum() {
                 <li>Symbiotic relationships</li>
               </ul>
               <p className="font-[family-name:var(--font-source-serif)] mt-4">
-                For each natural system, identify which Hermetic Principles are most evident and how they interact with each other.
+                For each natural system, identify which Hermetic Principles are most evident and how
+                they interact with each other.
               </p>
             </div>
           </div>
         </section>
-        
+
         {/* Application Projects Section */}
         <section className="mb-16">
           <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
@@ -98,14 +119,20 @@ export default function Practicum() {
           </h2>
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-6">
             <div className="flex items-center mb-4">
-              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">Media Analysis</h3>
-              <span className="ml-3 px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">Individual Activity</span>
+              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
+                Media Analysis
+              </h3>
+              <span className="ml-3 px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
+                Individual Activity
+              </span>
             </div>
             <p className="font-[family-name:var(--font-source-serif)] mb-4">
               Analyze how Hermetic Principles are represented in film, literature, or art.
             </p>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">Project Guidelines:</h4>
+              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">
+                Project Guidelines:
+              </h4>
               <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
                 <li>Select a film, book, or artwork that resonates with you</li>
                 <li>Identify at least three Hermetic Principles present in the work</li>
@@ -115,17 +142,23 @@ export default function Practicum() {
               </ul>
             </div>
           </div>
-          
+
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
             <div className="flex items-center mb-4">
-              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">Personal Transformation Journal</h3>
-              <span className="ml-3 px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">Individual Activity</span>
+              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
+                Personal Transformation Journal
+              </h3>
+              <span className="ml-3 px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
+                Individual Activity
+              </span>
             </div>
             <p className="font-[family-name:var(--font-source-serif)] mb-4">
               Document your personal journey of applying Hermetic Principles to your life.
             </p>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">Project Guidelines:</h4>
+              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">
+                Project Guidelines:
+              </h4>
               <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
                 <li>Select one principle to focus on for a 2-week period</li>
                 <li>Document daily observations of how this principle operates in your life</li>
@@ -136,7 +169,7 @@ export default function Practicum() {
             </div>
           </div>
         </section>
-        
+
         {/* Problem-Solving Framework Section */}
         <section className="mb-16">
           <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
@@ -144,56 +177,69 @@ export default function Practicum() {
           </h2>
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
             <div className="flex items-center mb-4">
-              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">Hermetic Problem-Solving</h3>
-              <span className="ml-3 px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">Individual or Group Activity</span>
+              <h3 className="text-xl font-[family-name:var(--font-merriweather)]">
+                Hermetic Problem-Solving
+              </h3>
+              <span className="ml-3 px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
+                Individual or Group Activity
+              </span>
             </div>
             <p className="font-[family-name:var(--font-source-serif)] mb-4">
               Use the Hermetic Principles as a framework for analyzing and addressing challenges.
             </p>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">Framework Steps:</h4>
+              <h4 className="font-[family-name:var(--font-merriweather)] font-medium mb-2">
+                Framework Steps:
+              </h4>
               <ol className="list-decimal pl-5 font-[family-name:var(--font-source-serif)] space-y-4">
                 <li>
-                  <strong>Mentalism:</strong> Examine your mental approach to the problem. How do your thoughts and beliefs shape your experience of the challenge?
+                  <strong>Mentalism:</strong> Examine your mental approach to the problem. How do
+                  your thoughts and beliefs shape your experience of the challenge?
                 </li>
                 <li>
-                  <strong>Correspondence:</strong> Look for patterns and parallels between this situation and others you&apos;ve encountered. What insights can you apply?
+                  <strong>Correspondence:</strong> Look for patterns and parallels between this
+                  situation and others you&apos;ve encountered. What insights can you apply?
                 </li>
                 <li>
-                  <strong>Vibration:</strong> Identify the energy and frequency of the situation. What needs to shift or change?
+                  <strong>Vibration:</strong> Identify the energy and frequency of the situation.
+                  What needs to shift or change?
                 </li>
                 <li>
-                  <strong>Polarity:</strong> Recognize the extremes and find the middle path. What balance needs to be struck?
+                  <strong>Polarity:</strong> Recognize the extremes and find the middle path. What
+                  balance needs to be struck?
                 </li>
                 <li>
-                  <strong>Rhythm:</strong> Acknowledge the natural cycles and timing. When is the right moment for action?
+                  <strong>Rhythm:</strong> Acknowledge the natural cycles and timing. When is the
+                  right moment for action?
                 </li>
                 <li>
-                  <strong>Cause and Effect:</strong> Trace the origins of the problem and anticipate potential outcomes of different approaches.
+                  <strong>Cause and Effect:</strong> Trace the origins of the problem and anticipate
+                  potential outcomes of different approaches.
                 </li>
                 <li>
-                  <strong>Gender:</strong> Consider both the active and receptive aspects of your solution. What needs to be initiated and what needs to be allowed?
+                  <strong>Gender:</strong> Consider both the active and receptive aspects of your
+                  solution. What needs to be initiated and what needs to be allowed?
                 </li>
               </ol>
             </div>
           </div>
         </section>
-        
+
         <div className="flex justify-between mt-16">
-          <Link 
-            href="/card-game" 
+          <Link
+            href="/card-game"
             className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
           >
             ← Back to Oracle
           </Link>
-        <Link 
-          href="/" 
-          className="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors font-[family-name:var(--font-source-serif)]"
-        >
-          ← Back to Home
-        </Link>
+          <Link
+            href="/"
+            className="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors font-[family-name:var(--font-source-serif)]"
+          >
+            ← Back to Home
+          </Link>
         </div>
       </div>
     </div>
   );
-} 
+}
