@@ -46,7 +46,7 @@ export default function Practicum() {
           <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
             Real-World Applications
           </h2>
-          
+
           {/* Technology & Innovation */}
           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-6">
             <div className="flex items-center mb-4">
@@ -70,9 +70,14 @@ export default function Practicum() {
                 development. For example:
               </p>
               <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
-                <li>How does the Principle of Vibration relate to wireless communication?</li>
                 <li>How does the Principle of Correspondence apply to artificial intelligence?</li>
-                <li>How does the Principle of Cause and Effect manifest in algorithm design?</li>
+                <li>
+                  How does the Principle of Mentalism influence our perception of virtual reality?
+                </li>
+                <li>
+                  How does the Principle of Gender manifest in the relationship between hardware and
+                  software?
+                </li>
               </ul>
             </div>
           </div>

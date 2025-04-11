@@ -18,6 +18,77 @@ export default function TeacherKey() {
           Guidance and suggested answers for the teaching resources
         </p>
 
+        {/* Technology & Innovation Key */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
+            Technology & Innovation - Suggested Principles
+          </h2>
+
+          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
+            <div className="space-y-6">
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                  Principle of Correspondence in Artificial Intelligence
+                </h3>
+                <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
+                  <li>Neural networks mirroring human neural structures</li>
+                  <li>
+                    Pattern recognition reflecting the &quot;as above, so below&quot; principle
+                  </li>
+                  <li>Learning algorithms paralleling human learning processes</li>
+                  <li>AI decision-making processes corresponding to human thought patterns</li>
+                </ul>
+              </div>
+
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                  Principle of Mentalism in Virtual Reality
+                </h3>
+                <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
+                  <li>VR as a manifestation of mental constructs</li>
+                  <li>Consciousness shaping virtual experiences</li>
+                  <li>Mental state affecting perception of virtual spaces</li>
+                  <li>The role of &quot;all is mind&quot; in digital environments</li>
+                </ul>
+              </div>
+
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
+                  Principle of Gender in Hardware and Software
+                </h3>
+                <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
+                  <li>
+                    Hardware (masculine/active) and software (feminine/receptive) complementarity
+                  </li>
+                  <li>Physical components providing foundation for digital instructions</li>
+                  <li>Creative tension between tangible and intangible elements</li>
+                  <li>Balance between active processing and receptive data storage</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="mt-6">
+              <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-4">
+                Teaching Guidance
+              </h3>
+              <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
+                <li>
+                  Encourage students to explore real-world examples of these principles in
+                  technology
+                </li>
+                <li>Guide discussions about how ancient wisdom applies to modern innovations</li>
+                <li>
+                  Help students recognize the interconnectedness of different technological systems
+                </li>
+                <li>
+                  Facilitate exploration of how these principles manifest in students&apos; daily
+                  technology use
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         {/* Environmental Systems Key */}
         <section className="mb-16">
           <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
@@ -134,40 +205,6 @@ export default function TeacherKey() {
           </div>
         </section>
 
-        {/* Technology & Innovation Key */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
-            Technology & Innovation - Suggested Principles
-          </h2>
-
-          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
-            <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
-              <li>
-                <strong>Vibration:</strong> Wireless communication, radio waves, light waves
-              </li>
-              <li>
-                <strong>Correspondence:</strong> Artificial intelligence mimicking human thought
-                patterns
-              </li>
-              <li>
-                <strong>Cause and Effect:</strong> Algorithm design, input/output relationships
-              </li>
-              <li>
-                <strong>Rhythm:</strong> Processing cycles, data flow patterns
-              </li>
-              <li>
-                <strong>Polarity:</strong> Binary code, on/off states, positive/negative charges
-              </li>
-              <li>
-                <strong>Gender:</strong> Active/receptive components in electronic systems
-              </li>
-              <li>
-                <strong>Mentalism:</strong> User interface design, human-computer interaction
-              </li>
-            </ul>
-          </div>
-        </section>
-
         {/* Media Analysis Guidance */}
         <section className="mb-16">
           <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
@@ -221,6 +258,46 @@ export default function TeacherKey() {
               <li>
                 <strong>Integration:</strong> Assess how students connect principles to broader life
                 contexts
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Hermetic Problem-Solving Guidance */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-[family-name:var(--font-merriweather)] text-blue-900 mb-6">
+            Hermetic Problem-Solving - Teaching Guidance
+          </h2>
+
+          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
+            <ul className="list-disc pl-5 font-[family-name:var(--font-source-serif)] space-y-2">
+              <li>
+                <strong>Mentalism:</strong> Guide students to recognize how their mindset and
+                beliefs influence their approach to problems
+              </li>
+              <li>
+                <strong>Correspondence:</strong> Help students identify patterns and similarities
+                between different types of problems
+              </li>
+              <li>
+                <strong>Vibration:</strong> Teach students to recognize the energy and momentum in
+                problem-solving processes
+              </li>
+              <li>
+                <strong>Polarity:</strong> Encourage students to consider opposing viewpoints and
+                potential solutions
+              </li>
+              <li>
+                <strong>Rhythm:</strong> Guide students to understand the natural cycles and timing
+                in problem-solving
+              </li>
+              <li>
+                <strong>Cause and Effect:</strong> Help students trace the root causes of problems
+                and predict potential outcomes
+              </li>
+              <li>
+                <strong>Gender:</strong> Teach students to balance active problem-solving with
+                receptive observation
               </li>
             </ul>
           </div>
