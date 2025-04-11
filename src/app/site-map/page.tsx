@@ -54,7 +54,7 @@ export default function SiteMap() {
             Interactive Features
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Link href="/card-game" className="block">
+            <Link href="/oracle" className="block">
               <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-[family-name:var(--font-merriweather)] mb-2">
                   Hermetic Oracle

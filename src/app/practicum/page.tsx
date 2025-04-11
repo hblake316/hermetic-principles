@@ -226,7 +226,7 @@ export default function Practicum() {
 
         <div className="flex justify-between mt-16">
           <Link
-            href="/card-game"
+            href="/oracle"
             className="px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-[family-name:var(--font-source-serif)]"
           >
             ← Back to Oracle
