@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hermetic Principles
+
+A modern web application built with Next.js that explores and presents the seven Hermetic principles. This project aims to provide an interactive and visually appealing way to learn about these ancient philosophical concepts.
+
+## Features
+
+- Modern, responsive design built with Next.js and Tailwind CSS
+- Interactive exploration of the seven Hermetic principles
+- Optimized performance with Next.js App Router
+- Type-safe development with TypeScript
+- Beautiful typography using the Geist font family
+
+## Tech Stack
+
+- **Framework**: Next.js 15.3
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Development Tools**: ESLint, Prettier
+- **Package Manager**: npm/yarn/pnpm
 
 ## Getting Started
 
