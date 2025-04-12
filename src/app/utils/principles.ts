@@ -46,7 +46,7 @@ export const principles = [
       id: 7,
       name: 'The Principle of Gender',
       description:
-        'Gender is in everything; everything has its Masculine and Feminine Principles; Gender manifests on all planes. There is gender manifested in everything — the Masculine and Feminine principles are ever at work.',
-      keywords: ['NEGATIVE + POSITIVE'],
+        'Gender is in everything; everything has its Masculine and Feminine Principles. Gender manifests on all planes. On the mental plane, the masculine is the objective, conscious, and active aspect, while the feminine is the receptive, subconscious, and passive aspect.',
+      keywords: [],
     },
   ];
